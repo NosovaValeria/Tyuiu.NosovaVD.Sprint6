@@ -30,23 +30,16 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
                 double[] valueArray = new double[len];
                 valueArray = ds.GetMassFunction(startstep, stopstep);
                 textBoxResult_NVD.Text = "";
-                textBoxResult_NVD.AppendText("+------------------------+" + Environment.NewLine);
-                textBoxResult_NVD.AppendText("|    X     |     f(x)    |" + Environment.NewLine);
-                textBoxResult_NVD.AppendText("+------------------------+" + Environment.NewLine);
+                textBoxResult_NVD.AppendText("+----------------------+" + Environment.NewLine);
+                textBoxResult_NVD.AppendText("|    X     |   f(x)    |" + Environment.NewLine);
+                textBoxResult_NVD.AppendText("+----------------------+" + Environment.NewLine);
                 for (int i = 0; i <= len - 1; i++)
                 {                 
-                    if(i == 5)
-                    {
-                        str = String.Format("| {0, 6:d}   |  {1,6:f2}    |", startstep, valueArray[i]);
-                    }
-                    else
-                    {
-                        str = String.Format("| {0, 6:d}   |  {1,6:f2}   |", startstep, valueArray[i]);
-                    }
+                    str = String.Format("|{0,6:d}    |  {1,6:f2}   |", startstep, valueArray[i]);
                     textBoxResult_NVD.AppendText(str + Environment.NewLine);
                     startstep++;
                 }
-                textBoxResult_NVD.AppendText("+------------------------+" + Environment.NewLine);
+                textBoxResult_NVD.AppendText("+----------------------+" + Environment.NewLine);
             }
             catch
             {

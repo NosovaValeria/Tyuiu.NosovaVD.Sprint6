@@ -48,6 +48,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
             // 
             // textBoxResult_NVD
             // 
+            this.textBoxResult_NVD.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxResult_NVD.Location = new System.Drawing.Point(6, 55);
             this.textBoxResult_NVD.Multiline = true;
             this.textBoxResult_NVD.Name = "textBoxResult_NVD";
