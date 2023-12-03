@@ -66,7 +66,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
         }
         private void buttonHelp_NVD_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 3 выполнил студент группы ПКТб-23-2 Носова В.Д.", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 3 выполнил студент группы ПКТб-23-2 Носова Валерия Дмитриевна", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
     
