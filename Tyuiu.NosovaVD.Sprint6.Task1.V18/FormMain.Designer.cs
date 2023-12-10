@@ -30,20 +30,20 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
          private void InitializeComponent()
         {
             this.textBoxResult_NVD = new System.Windows.Forms.TextBox();
-            this.groupBoxNamedOne_NVD = new System.Windows.Forms.GroupBox();
-            this.textBoxNameddOne_NVD = new System.Windows.Forms.TextBox();
+            this.groupBoxOut_NVD = new System.Windows.Forms.GroupBox();
+            this.textBoxResText_NVD = new System.Windows.Forms.TextBox();
             this.buttonDone_NVD = new System.Windows.Forms.Button();
             this.buttonHelp_NVD = new System.Windows.Forms.Button();
-            this.groupBoxNameddOne_NVD = new System.Windows.Forms.GroupBox();
-            this.textBoxNameedOne_NVD = new System.Windows.Forms.TextBox();
-            this.textBoxNamedThree_NVD = new System.Windows.Forms.TextBox();
+            this.groupBoxIn_NVD = new System.Windows.Forms.GroupBox();
+            this.textBoxStop_NVD = new System.Windows.Forms.TextBox();
+            this.textBoxStart_NVD = new System.Windows.Forms.TextBox();
             this.textBoxStopStep_NVD = new System.Windows.Forms.TextBox();
             this.textBoxStartStep_NVD = new System.Windows.Forms.TextBox();
-            this.groupBoxNameedOne_NVD = new System.Windows.Forms.GroupBox();
-            this.textBoxNaamedOne_NVD = new System.Windows.Forms.TextBox();
-            this.groupBoxNamedOne_NVD.SuspendLayout();
-            this.groupBoxNameddOne_NVD.SuspendLayout();
-            this.groupBoxNameedOne_NVD.SuspendLayout();
+            this.groupBoxUslovie_NVD = new System.Windows.Forms.GroupBox();
+            this.textBoxUslovie_NVD = new System.Windows.Forms.TextBox();
+            this.groupBoxOut_NVD.SuspendLayout();
+            this.groupBoxIn_NVD.SuspendLayout();
+            this.groupBoxUslovie_NVD.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxResult_NVD
@@ -56,27 +56,27 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
             this.textBoxResult_NVD.Size = new System.Drawing.Size(284, 326);
             this.textBoxResult_NVD.TabIndex = 0;
             // 
-            // groupBoxNamedOne_NVD
+            // groupBoxOut_NVD
             // 
-            this.groupBoxNamedOne_NVD.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBoxNamedOne_NVD.Controls.Add(this.textBoxNameddOne_NVD);
-            this.groupBoxNamedOne_NVD.Controls.Add(this.textBoxResult_NVD);
-            this.groupBoxNamedOne_NVD.Location = new System.Drawing.Point(492, 23);
-            this.groupBoxNamedOne_NVD.Name = "groupBoxNamedOne_NVD";
-            this.groupBoxNamedOne_NVD.Size = new System.Drawing.Size(296, 387);
-            this.groupBoxNamedOne_NVD.TabIndex = 1;
-            this.groupBoxNamedOne_NVD.TabStop = false;
-            this.groupBoxNamedOne_NVD.Text = "Вывод данных";
+            this.groupBoxOut_NVD.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBoxOut_NVD.Controls.Add(this.textBoxResText_NVD);
+            this.groupBoxOut_NVD.Controls.Add(this.textBoxResult_NVD);
+            this.groupBoxOut_NVD.Location = new System.Drawing.Point(492, 23);
+            this.groupBoxOut_NVD.Name = "groupBoxOut_NVD";
+            this.groupBoxOut_NVD.Size = new System.Drawing.Size(296, 387);
+            this.groupBoxOut_NVD.TabIndex = 1;
+            this.groupBoxOut_NVD.TabStop = false;
+            this.groupBoxOut_NVD.Text = "Вывод данных";
             // 
-            // textBoxNameddOne_NVD
+            // textBoxResText_NVD
             // 
-            this.textBoxNameddOne_NVD.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBoxNameddOne_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNameddOne_NVD.Location = new System.Drawing.Point(6, 27);
-            this.textBoxNameddOne_NVD.Name = "textBoxNameddOne_NVD";
-            this.textBoxNameddOne_NVD.Size = new System.Drawing.Size(83, 15);
-            this.textBoxNameddOne_NVD.TabIndex = 1;
-            this.textBoxNameddOne_NVD.Text = "Результат:";
+            this.textBoxResText_NVD.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBoxResText_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResText_NVD.Location = new System.Drawing.Point(6, 27);
+            this.textBoxResText_NVD.Name = "textBoxResText_NVD";
+            this.textBoxResText_NVD.Size = new System.Drawing.Size(83, 15);
+            this.textBoxResText_NVD.TabIndex = 1;
+            this.textBoxResText_NVD.Text = "Результат:";
             // 
             // buttonDone_NVD
             // 
@@ -100,38 +100,38 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
             this.buttonHelp_NVD.UseVisualStyleBackColor = false;
             this.buttonHelp_NVD.Click += new System.EventHandler(this.buttonHelp_NVD_Click);
             // 
-            // groupBoxNameddOne_NVD
+            // groupBoxIn_NVD
             // 
-            this.groupBoxNameddOne_NVD.Controls.Add(this.textBoxNameedOne_NVD);
-            this.groupBoxNameddOne_NVD.Controls.Add(this.textBoxNamedThree_NVD);
-            this.groupBoxNameddOne_NVD.Controls.Add(this.textBoxStopStep_NVD);
-            this.groupBoxNameddOne_NVD.Controls.Add(this.textBoxStartStep_NVD);
-            this.groupBoxNameddOne_NVD.Location = new System.Drawing.Point(12, 325);
-            this.groupBoxNameddOne_NVD.Name = "groupBoxNameddOne_NVD";
-            this.groupBoxNameddOne_NVD.Size = new System.Drawing.Size(253, 73);
-            this.groupBoxNameddOne_NVD.TabIndex = 4;
-            this.groupBoxNameddOne_NVD.TabStop = false;
-            this.groupBoxNameddOne_NVD.Text = "Ввод данных:";
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStop_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStart_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStopStep_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStartStep_NVD);
+            this.groupBoxIn_NVD.Location = new System.Drawing.Point(12, 325);
+            this.groupBoxIn_NVD.Name = "groupBoxIn_NVD";
+            this.groupBoxIn_NVD.Size = new System.Drawing.Size(253, 73);
+            this.groupBoxIn_NVD.TabIndex = 4;
+            this.groupBoxIn_NVD.TabStop = false;
+            this.groupBoxIn_NVD.Text = "Ввод данных:";
             // 
-            // textBoxNameedOne_NVD
+            // textBoxStop_NVD
             // 
-            this.textBoxNameedOne_NVD.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBoxNameedOne_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNameedOne_NVD.Location = new System.Drawing.Point(133, 21);
-            this.textBoxNameedOne_NVD.Name = "textBoxNameedOne_NVD";
-            this.textBoxNameedOne_NVD.Size = new System.Drawing.Size(114, 15);
-            this.textBoxNameedOne_NVD.TabIndex = 6;
-            this.textBoxNameedOne_NVD.Text = "Конец шага:";
+            this.textBoxStop_NVD.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBoxStop_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxStop_NVD.Location = new System.Drawing.Point(133, 21);
+            this.textBoxStop_NVD.Name = "textBoxStop_NVD";
+            this.textBoxStop_NVD.Size = new System.Drawing.Size(114, 15);
+            this.textBoxStop_NVD.TabIndex = 6;
+            this.textBoxStop_NVD.Text = "Конец шага:";
             // 
-            // textBoxNamedThree_NVD
+            // textBoxStart_NVD
             // 
-            this.textBoxNamedThree_NVD.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBoxNamedThree_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNamedThree_NVD.Location = new System.Drawing.Point(13, 21);
-            this.textBoxNamedThree_NVD.Name = "textBoxNamedThree_NVD";
-            this.textBoxNamedThree_NVD.Size = new System.Drawing.Size(85, 15);
-            this.textBoxNamedThree_NVD.TabIndex = 5;
-            this.textBoxNamedThree_NVD.Text = "Старт шага:";
+            this.textBoxStart_NVD.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBoxStart_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxStart_NVD.Location = new System.Drawing.Point(13, 21);
+            this.textBoxStart_NVD.Name = "textBoxStart_NVD";
+            this.textBoxStart_NVD.Size = new System.Drawing.Size(85, 15);
+            this.textBoxStart_NVD.TabIndex = 5;
+            this.textBoxStart_NVD.Text = "Старт шага:";
             // 
             // textBoxStopStep_NVD
             // 
@@ -151,26 +151,26 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
             this.textBoxStartStep_NVD.TabIndex = 5;
             this.textBoxStartStep_NVD.Text = "-5";
             // 
-            // groupBoxNameedOne_NVD
+            // groupBoxUslovie_NVD
             // 
-            this.groupBoxNameedOne_NVD.Controls.Add(this.textBoxNaamedOne_NVD);
-            this.groupBoxNameedOne_NVD.Location = new System.Drawing.Point(10, 23);
-            this.groupBoxNameedOne_NVD.Name = "groupBoxNameedOne_NVD";
-            this.groupBoxNameedOne_NVD.Size = new System.Drawing.Size(474, 296);
-            this.groupBoxNameedOne_NVD.TabIndex = 5;
-            this.groupBoxNameedOne_NVD.TabStop = false;
-            this.groupBoxNameedOne_NVD.Text = "Условие";
+            this.groupBoxUslovie_NVD.Controls.Add(this.textBoxUslovie_NVD);
+            this.groupBoxUslovie_NVD.Location = new System.Drawing.Point(10, 23);
+            this.groupBoxUslovie_NVD.Name = "groupBoxUslovie_NVD";
+            this.groupBoxUslovie_NVD.Size = new System.Drawing.Size(474, 296);
+            this.groupBoxUslovie_NVD.TabIndex = 5;
+            this.groupBoxUslovie_NVD.TabStop = false;
+            this.groupBoxUslovie_NVD.Text = "Условие";
             // 
-            // textBoxNaamedOne_NVD
+            // textBoxUslovie_NVD
             // 
-            this.textBoxNaamedOne_NVD.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBoxNaamedOne_NVD.Location = new System.Drawing.Point(6, 21);
-            this.textBoxNaamedOne_NVD.Multiline = true;
-            this.textBoxNaamedOne_NVD.Name = "textBoxNaamedOne_NVD";
-            this.textBoxNaamedOne_NVD.ReadOnly = true;
-            this.textBoxNaamedOne_NVD.Size = new System.Drawing.Size(348, 56);
-            this.textBoxNaamedOne_NVD.TabIndex = 0;
-            this.textBoxNaamedOne_NVD.Text = "Протабулировать функцию ((2.0 * Sin(x))/(3.0*x+1.2) + Cos(x) - 7.0 * x * 2.0) на " +
+            this.textBoxUslovie_NVD.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBoxUslovie_NVD.Location = new System.Drawing.Point(6, 21);
+            this.textBoxUslovie_NVD.Multiline = true;
+            this.textBoxUslovie_NVD.Name = "textBoxUslovie_NVD";
+            this.textBoxUslovie_NVD.ReadOnly = true;
+            this.textBoxUslovie_NVD.Size = new System.Drawing.Size(348, 56);
+            this.textBoxUslovie_NVD.TabIndex = 0;
+            this.textBoxUslovie_NVD.Text = "Протабулировать функцию ((2.0 * Sin(x))/(3.0*x+1.2) + Cos(x) - 7.0 * x * 2.0) на " +
     "заданном диапазоне. Результат вывести в таблице.";
             // 
             // FormMain
@@ -178,21 +178,22 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 426);
-            this.Controls.Add(this.groupBoxNameedOne_NVD);
-            this.Controls.Add(this.groupBoxNameddOne_NVD);
+            this.Controls.Add(this.groupBoxUslovie_NVD);
+            this.Controls.Add(this.groupBoxIn_NVD);
             this.Controls.Add(this.buttonHelp_NVD);
             this.Controls.Add(this.buttonDone_NVD);
-            this.Controls.Add(this.groupBoxNamedOne_NVD);
+            this.Controls.Add(this.groupBoxOut_NVD);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 18 | Носова В.Д.";
-            this.groupBoxNamedOne_NVD.ResumeLayout(false);
-            this.groupBoxNamedOne_NVD.PerformLayout();
-            this.groupBoxNameddOne_NVD.ResumeLayout(false);
-            this.groupBoxNameddOne_NVD.PerformLayout();
-            this.groupBoxNameedOne_NVD.ResumeLayout(false);
-            this.groupBoxNameedOne_NVD.PerformLayout();
+            this.groupBoxOut_NVD.ResumeLayout(false);
+            this.groupBoxOut_NVD.PerformLayout();
+            this.groupBoxIn_NVD.ResumeLayout(false);
+            this.groupBoxIn_NVD.PerformLayout();
+            this.groupBoxUslovie_NVD.ResumeLayout(false);
+            this.groupBoxUslovie_NVD.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -200,17 +201,17 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
         #endregion
 
         private System.Windows.Forms.TextBox textBoxResult_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNamedOne_NVD;
-        private System.Windows.Forms.TextBox textBoxNameddOne_NVD;
+        private System.Windows.Forms.GroupBox groupBoxOut_NVD;
+        private System.Windows.Forms.TextBox textBoxResText_NVD;
         private System.Windows.Forms.Button buttonDone_NVD;
         private System.Windows.Forms.Button buttonHelp_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNameddOne_NVD;
+        private System.Windows.Forms.GroupBox groupBoxIn_NVD;
         private System.Windows.Forms.TextBox textBoxStopStep_NVD;
         private System.Windows.Forms.TextBox textBoxStartStep_NVD;
-        private System.Windows.Forms.TextBox textBoxNamedThree_NVD;
-        private System.Windows.Forms.TextBox textBoxNameedOne_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNameedOne_NVD;
-        private System.Windows.Forms.TextBox textBoxNaamedOne_NVD;
+        private System.Windows.Forms.TextBox textBoxStart_NVD;
+        private System.Windows.Forms.TextBox textBoxStop_NVD;
+        private System.Windows.Forms.GroupBox groupBoxUslovie_NVD;
+        private System.Windows.Forms.TextBox textBoxUslovie_NVD;
     }
 }
 
