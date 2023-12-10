@@ -222,7 +222,6 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.Controls.Add(this.panelThree_NVD);
             this.Controls.Add(this.panelTwo_NVD);
             this.Controls.Add(this.panelOne_NVD);
-            this.MinimizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 6 | Вариант 28 | Носова В.Д.";
