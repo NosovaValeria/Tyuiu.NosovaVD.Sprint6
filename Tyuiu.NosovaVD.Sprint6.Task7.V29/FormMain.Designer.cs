@@ -40,11 +40,11 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.textBoxNamedOne_NVD = new System.Windows.Forms.TextBox();
             this.panelThree_NVD = new System.Windows.Forms.Panel();
             this.groupBoxTwo_NVD = new System.Windows.Forms.GroupBox();
-            this.dataGridViewInMatrix_NVD = new System.Windows.Forms.DataGridView();
+            this.dataGridViewIn_NVD = new System.Windows.Forms.DataGridView();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.panelFour_NVD = new System.Windows.Forms.Panel();
             this.groupBoxThree_NVD = new System.Windows.Forms.GroupBox();
-            this.dataGridViewOutMatrix_NVD = new System.Windows.Forms.DataGridView();
+            this.dataGridViewOut_NVD = new System.Windows.Forms.DataGridView();
             this.openFileDialogTask_NVD = new System.Windows.Forms.OpenFileDialog();
             this.toolTip_NVD = new System.Windows.Forms.ToolTip(this.components);
             this.saveFileDialogMatrix_NVD = new System.Windows.Forms.SaveFileDialog();
@@ -53,10 +53,10 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.groupBoxNameedOne_NVD.SuspendLayout();
             this.panelThree_NVD.SuspendLayout();
             this.groupBoxTwo_NVD.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInMatrix_NVD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewIn_NVD)).BeginInit();
             this.panelFour_NVD.SuspendLayout();
             this.groupBoxThree_NVD.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutMatrix_NVD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOut_NVD)).BeginInit();
             this.SuspendLayout();
             // 
             // panelOne_NVD
@@ -86,6 +86,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             // 
             // buttonHelp_NVD
             // 
+            this.buttonHelp_NVD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonHelp_NVD.Image = global::Tyuiu.NosovaVD.Sprint6.Task7.V29.Properties.Resources.help;
             this.buttonHelp_NVD.Location = new System.Drawing.Point(931, 12);
             this.buttonHelp_NVD.Name = "buttonHelp_NVD";
@@ -133,9 +134,10 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             // groupBoxNameedOne_NVD
             // 
             this.groupBoxNameedOne_NVD.Controls.Add(this.textBoxNamedOne_NVD);
-            this.groupBoxNameedOne_NVD.Location = new System.Drawing.Point(3, 3);
+            this.groupBoxNameedOne_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxNameedOne_NVD.Location = new System.Drawing.Point(0, 0);
             this.groupBoxNameedOne_NVD.Name = "groupBoxNameedOne_NVD";
-            this.groupBoxNameedOne_NVD.Size = new System.Drawing.Size(1017, 81);
+            this.groupBoxNameedOne_NVD.Size = new System.Drawing.Size(1032, 87);
             this.groupBoxNameedOne_NVD.TabIndex = 9;
             this.groupBoxNameedOne_NVD.TabStop = false;
             this.groupBoxNameedOne_NVD.Text = "Условие";
@@ -143,11 +145,12 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             // textBoxNamedOne_NVD
             // 
             this.textBoxNamedOne_NVD.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxNamedOne_NVD.Location = new System.Drawing.Point(6, 21);
+            this.textBoxNamedOne_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxNamedOne_NVD.Location = new System.Drawing.Point(3, 18);
             this.textBoxNamedOne_NVD.Multiline = true;
             this.textBoxNamedOne_NVD.Name = "textBoxNamedOne_NVD";
             this.textBoxNamedOne_NVD.ReadOnly = true;
-            this.textBoxNamedOne_NVD.Size = new System.Drawing.Size(1005, 54);
+            this.textBoxNamedOne_NVD.Size = new System.Drawing.Size(1026, 66);
             this.textBoxNamedOne_NVD.TabIndex = 3;
             this.textBoxNamedOne_NVD.Text = resources.GetString("textBoxNamedOne_NVD.Text");
             // 
@@ -162,25 +165,27 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             // 
             // groupBoxTwo_NVD
             // 
-            this.groupBoxTwo_NVD.Controls.Add(this.dataGridViewInMatrix_NVD);
-            this.groupBoxTwo_NVD.Location = new System.Drawing.Point(12, 6);
+            this.groupBoxTwo_NVD.Controls.Add(this.dataGridViewIn_NVD);
+            this.groupBoxTwo_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxTwo_NVD.Location = new System.Drawing.Point(0, 0);
             this.groupBoxTwo_NVD.Name = "groupBoxTwo_NVD";
-            this.groupBoxTwo_NVD.Size = new System.Drawing.Size(494, 363);
+            this.groupBoxTwo_NVD.Size = new System.Drawing.Size(512, 381);
             this.groupBoxTwo_NVD.TabIndex = 0;
             this.groupBoxTwo_NVD.TabStop = false;
             this.groupBoxTwo_NVD.Text = "Ввод";
             // 
-            // dataGridViewInMatrix_NVD
+            // dataGridViewIn_NVD
             // 
-            this.dataGridViewInMatrix_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewInMatrix_NVD.ColumnHeadersVisible = false;
-            this.dataGridViewInMatrix_NVD.Location = new System.Drawing.Point(6, 21);
-            this.dataGridViewInMatrix_NVD.Name = "dataGridViewInMatrix_NVD";
-            this.dataGridViewInMatrix_NVD.RowHeadersVisible = false;
-            this.dataGridViewInMatrix_NVD.RowHeadersWidth = 51;
-            this.dataGridViewInMatrix_NVD.RowTemplate.Height = 24;
-            this.dataGridViewInMatrix_NVD.Size = new System.Drawing.Size(488, 336);
-            this.dataGridViewInMatrix_NVD.TabIndex = 0;
+            this.dataGridViewIn_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewIn_NVD.ColumnHeadersVisible = false;
+            this.dataGridViewIn_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewIn_NVD.Location = new System.Drawing.Point(3, 18);
+            this.dataGridViewIn_NVD.Name = "dataGridViewIn_NVD";
+            this.dataGridViewIn_NVD.RowHeadersVisible = false;
+            this.dataGridViewIn_NVD.RowHeadersWidth = 51;
+            this.dataGridViewIn_NVD.RowTemplate.Height = 24;
+            this.dataGridViewIn_NVD.Size = new System.Drawing.Size(506, 360);
+            this.dataGridViewIn_NVD.TabIndex = 0;
             // 
             // splitter1
             // 
@@ -201,25 +206,27 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             // 
             // groupBoxThree_NVD
             // 
-            this.groupBoxThree_NVD.Controls.Add(this.dataGridViewOutMatrix_NVD);
-            this.groupBoxThree_NVD.Location = new System.Drawing.Point(9, 6);
+            this.groupBoxThree_NVD.Controls.Add(this.dataGridViewOut_NVD);
+            this.groupBoxThree_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxThree_NVD.Location = new System.Drawing.Point(0, 0);
             this.groupBoxThree_NVD.Name = "groupBoxThree_NVD";
-            this.groupBoxThree_NVD.Size = new System.Drawing.Size(496, 363);
+            this.groupBoxThree_NVD.Size = new System.Drawing.Size(517, 381);
             this.groupBoxThree_NVD.TabIndex = 1;
             this.groupBoxThree_NVD.TabStop = false;
             this.groupBoxThree_NVD.Text = "Вывод";
             // 
-            // dataGridViewOutMatrix_NVD
+            // dataGridViewOut_NVD
             // 
-            this.dataGridViewOutMatrix_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewOutMatrix_NVD.ColumnHeadersVisible = false;
-            this.dataGridViewOutMatrix_NVD.Location = new System.Drawing.Point(6, 21);
-            this.dataGridViewOutMatrix_NVD.Name = "dataGridViewOutMatrix_NVD";
-            this.dataGridViewOutMatrix_NVD.RowHeadersVisible = false;
-            this.dataGridViewOutMatrix_NVD.RowHeadersWidth = 51;
-            this.dataGridViewOutMatrix_NVD.RowTemplate.Height = 24;
-            this.dataGridViewOutMatrix_NVD.Size = new System.Drawing.Size(484, 336);
-            this.dataGridViewOutMatrix_NVD.TabIndex = 0;
+            this.dataGridViewOut_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewOut_NVD.ColumnHeadersVisible = false;
+            this.dataGridViewOut_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewOut_NVD.Location = new System.Drawing.Point(3, 18);
+            this.dataGridViewOut_NVD.Name = "dataGridViewOut_NVD";
+            this.dataGridViewOut_NVD.RowHeadersVisible = false;
+            this.dataGridViewOut_NVD.RowHeadersWidth = 51;
+            this.dataGridViewOut_NVD.RowTemplate.Height = 24;
+            this.dataGridViewOut_NVD.Size = new System.Drawing.Size(511, 360);
+            this.dataGridViewOut_NVD.TabIndex = 0;
             // 
             // openFileDialogTask_NVD
             // 
@@ -252,10 +259,10 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.groupBoxNameedOne_NVD.PerformLayout();
             this.panelThree_NVD.ResumeLayout(false);
             this.groupBoxTwo_NVD.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInMatrix_NVD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewIn_NVD)).EndInit();
             this.panelFour_NVD.ResumeLayout(false);
             this.groupBoxThree_NVD.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutMatrix_NVD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOut_NVD)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -277,8 +284,8 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
         private System.Windows.Forms.OpenFileDialog openFileDialogTask_NVD;
         private System.Windows.Forms.ToolTip toolTip_NVD;
         private System.Windows.Forms.Button buttonSaveFile_NVD;
-        private System.Windows.Forms.DataGridView dataGridViewInMatrix_NVD;
-        private System.Windows.Forms.DataGridView dataGridViewOutMatrix_NVD;
+        private System.Windows.Forms.DataGridView dataGridViewIn_NVD;
+        private System.Windows.Forms.DataGridView dataGridViewOut_NVD;
         private System.Windows.Forms.SaveFileDialog saveFileDialogMatrix_NVD;
     }
 }

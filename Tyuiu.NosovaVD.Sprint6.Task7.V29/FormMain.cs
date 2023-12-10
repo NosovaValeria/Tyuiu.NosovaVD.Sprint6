@@ -55,22 +55,22 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
 
             int[,] arrayValues = LoadFromFileData(openFilePath);
 
-            dataGridViewInMatrix_NVD.ColumnCount = colums;
-            dataGridViewInMatrix_NVD.RowCount = rows;
-            dataGridViewOutMatrix_NVD.ColumnCount = colums;
-            dataGridViewOutMatrix_NVD.RowCount = rows;
+            dataGridViewIn_NVD.ColumnCount = colums;
+            dataGridViewIn_NVD.RowCount = rows;
+            dataGridViewOut_NVD.ColumnCount = colums;
+            dataGridViewOut_NVD.RowCount = rows;
 
             for(int i = 0; i< colums; i++)
             {
-                dataGridViewInMatrix_NVD.Columns[i].Width = 25;
-                dataGridViewOutMatrix_NVD.Columns[i].Width = 25;
+                dataGridViewIn_NVD.Columns[i].Width = 25;
+                dataGridViewOut_NVD.Columns[i].Width = 25;
             }
 
             for(int r = 0; r < rows; r++)
             {
                 for(int c = 0; c < colums; c++)
                 {
-                    dataGridViewInMatrix_NVD.Rows[r].Cells[c].Value = arrayValues[r, c];
+                    dataGridViewIn_NVD.Rows[r].Cells[c].Value = arrayValues[r, c];
                 }
             }
 
@@ -87,7 +87,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             {
                 for (int c = 0; c < colums; c++)
                 {
-                    dataGridViewOutMatrix_NVD.Rows[r].Cells[c].Value = arrayValues[r, c];
+                    dataGridViewOut_NVD.Rows[r].Cells[c].Value = arrayValues[r, c];
                 }
             }
             buttonSaveFile_NVD.Enabled = true;
@@ -114,8 +114,8 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
                 File.Delete(path);
             }
 
-            int rows = dataGridViewOutMatrix_NVD.RowCount;
-            int columns = dataGridViewOutMatrix_NVD.ColumnCount;
+            int rows = dataGridViewOut_NVD.RowCount;
+            int columns = dataGridViewOut_NVD.ColumnCount;
 
             string str = "";
             for (int i = 0; i < rows; i++)
@@ -124,11 +124,11 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
                 {
                     if (j != columns - 1)
                     {
-                        str = str + dataGridViewOutMatrix_NVD.Rows[i].Cells[j].Value + ";";
+                        str = str + dataGridViewOut_NVD.Rows[i].Cells[j].Value + ";";
                     }
                     else
                     {
-                        str = str + dataGridViewOutMatrix_NVD.Rows[i].Cells[j].Value;
+                        str = str + dataGridViewOut_NVD.Rows[i].Cells[j].Value;
                     }
                 }
                 File.AppendAllText(path, str + Environment.NewLine);
@@ -158,18 +158,17 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            dataGridViewInMatrix_NVD.ColumnCount = 50;
-            dataGridViewOutMatrix_NVD.ColumnCount = 50;
+            dataGridViewIn_NVD.ColumnCount = 50;
+            dataGridViewOut_NVD.ColumnCount = 50;
 
-            dataGridViewInMatrix_NVD.RowCount = 50;
-            dataGridViewOutMatrix_NVD.RowCount = 50;
+            dataGridViewIn_NVD.RowCount = 50;
+            dataGridViewOut_NVD.RowCount = 50;
 
             for(int i = 0; i < 50; i++)
             {
-                dataGridViewInMatrix_NVD.Columns[i].Width = 25;
-                dataGridViewOutMatrix_NVD.Columns[i].Width = 25;
+                dataGridViewIn_NVD.Columns[i].Width = 25;
+                dataGridViewOut_NVD.Columns[i].Width = 25;
             }
         }
-
     }
 }
