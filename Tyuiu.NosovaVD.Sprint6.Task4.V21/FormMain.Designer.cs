@@ -198,6 +198,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             this.chartFunction_NVD.Name = "chartFunction_NVD";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartFunction_NVD.Series.Add(series1);
