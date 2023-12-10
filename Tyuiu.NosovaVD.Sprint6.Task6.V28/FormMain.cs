@@ -23,14 +23,14 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
         {
              openFileDialogTask.ShowDialog();
             openFilePath = openFileDialogTask.FileName;
-            textBoxLoadFromFile_NVD.Text = File.ReadAllText(openFilePath);
+            textBoxIn_NVD.Text = File.ReadAllText(openFilePath);
             groupBoxTwo_NVD.Text = groupBoxTwo_NVD.Text + " " + openFileDialogTask.FileName;
             buttonDone_NVD.Enabled = true;
         }
 
         private void buttonDone_NVD_Click(object sender, EventArgs e)
         {
-            textBoxResult_NVD.Text = ds.CollectTextFromFile(openFilePath);
+            textBoxOut_NVD.Text = ds.CollectTextFromFile(openFilePath);
         }
 
         private void buttonHelp_NVD_Click(object sender, EventArgs e)
