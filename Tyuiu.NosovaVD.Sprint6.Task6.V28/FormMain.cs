@@ -21,10 +21,10 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
         DataService ds = new DataService();
         private void buttonOpenFile_NVD_Click(object sender, EventArgs e)
         {
-             openFileDialogTask.ShowDialog();
-            openFilePath = openFileDialogTask.FileName;
+             openFileDialogTask_NVD.ShowDialog();
+            openFilePath = openFileDialogTask_NVD.FileName;
             textBoxIn_NVD.Text = File.ReadAllText(openFilePath);
-            groupBoxTwo_NVD.Text = groupBoxTwo_NVD.Text + " " + openFileDialogTask.FileName;
+            groupBoxTwo_NVD.Text = groupBoxTwo_NVD.Text + " " + openFileDialogTask_NVD.FileName;
             buttonDone_NVD.Enabled = true;
         }
 

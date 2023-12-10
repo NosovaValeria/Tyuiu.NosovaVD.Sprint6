@@ -41,12 +41,12 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.panelThree_NVD = new System.Windows.Forms.Panel();
             this.groupBoxTwo_NVD = new System.Windows.Forms.GroupBox();
             this.textBoxIn_NVD = new System.Windows.Forms.TextBox();
-            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.splitterOne_NVD = new System.Windows.Forms.Splitter();
             this.panelFour_NVD = new System.Windows.Forms.Panel();
             this.groupBoxThree_NVD = new System.Windows.Forms.GroupBox();
             this.textBoxOut_NVD = new System.Windows.Forms.TextBox();
-            this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
-            this.toolTipOne = new System.Windows.Forms.ToolTip(this.components);
+            this.openFileDialogTask_NVD = new System.Windows.Forms.OpenFileDialog();
+            this.toolTipOne_NVD = new System.Windows.Forms.ToolTip(this.components);
             this.panelOne_NVD.SuspendLayout();
             this.panelTwo_NVD.SuspendLayout();
             this.groupBoxNameedOne_NVD.SuspendLayout();
@@ -75,7 +75,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.buttonHelp_NVD.Name = "buttonHelp_NVD";
             this.buttonHelp_NVD.Size = new System.Drawing.Size(89, 66);
             this.buttonHelp_NVD.TabIndex = 1;
-            this.toolTipOne.SetToolTip(this.buttonHelp_NVD, "Сведение о программе");
+            this.toolTipOne_NVD.SetToolTip(this.buttonHelp_NVD, "Сведение о программе");
             this.buttonHelp_NVD.UseVisualStyleBackColor = true;
             this.buttonHelp_NVD.Click += new System.EventHandler(this.buttonHelp_NVD_Click);
             // 
@@ -87,7 +87,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.buttonDone_NVD.Name = "buttonDone_NVD";
             this.buttonDone_NVD.Size = new System.Drawing.Size(87, 66);
             this.buttonDone_NVD.TabIndex = 1;
-            this.toolTipOne.SetToolTip(this.buttonDone_NVD, "Производит поиск в файле и выводит предпоследнее слово каждой строки в результиру" +
+            this.toolTipOne_NVD.SetToolTip(this.buttonDone_NVD, "Производит поиск в файле и выводит предпоследнее слово каждой строки в результиру" +
         "ющею строку");
             this.buttonDone_NVD.UseVisualStyleBackColor = true;
             this.buttonDone_NVD.Click += new System.EventHandler(this.buttonDone_NVD_Click);
@@ -99,7 +99,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.buttonOpenFile_NVD.Name = "buttonOpenFile_NVD";
             this.buttonOpenFile_NVD.Size = new System.Drawing.Size(84, 66);
             this.buttonOpenFile_NVD.TabIndex = 0;
-            this.toolTipOne.SetToolTip(this.buttonOpenFile_NVD, "Открыть файл\r\nВыберите нужный файл для обработки");
+            this.toolTipOne_NVD.SetToolTip(this.buttonOpenFile_NVD, "Открыть файл\r\nВыберите нужный файл для обработки");
             this.buttonOpenFile_NVD.UseVisualStyleBackColor = true;
             this.buttonOpenFile_NVD.Click += new System.EventHandler(this.buttonOpenFile_NVD_Click);
             // 
@@ -165,13 +165,13 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.textBoxIn_NVD.Size = new System.Drawing.Size(445, 310);
             this.textBoxIn_NVD.TabIndex = 0;
             // 
-            // splitter1
+            // splitterOne_NVD
             // 
-            this.splitter1.Location = new System.Drawing.Point(451, 172);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 331);
-            this.splitter1.TabIndex = 3;
-            this.splitter1.TabStop = false;
+            this.splitterOne_NVD.Location = new System.Drawing.Point(451, 172);
+            this.splitterOne_NVD.Name = "splitterOne_NVD";
+            this.splitterOne_NVD.Size = new System.Drawing.Size(3, 331);
+            this.splitterOne_NVD.TabIndex = 3;
+            this.splitterOne_NVD.TabStop = false;
             // 
             // panelFour_NVD
             // 
@@ -203,14 +203,14 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.textBoxOut_NVD.Size = new System.Drawing.Size(472, 310);
             this.textBoxOut_NVD.TabIndex = 1;
             // 
-            // openFileDialogTask
+            // openFileDialogTask_NVD
             // 
-            this.openFileDialogTask.FileName = "openFileDialog";
+            this.openFileDialogTask_NVD.FileName = "openFileDialog";
             // 
-            // toolTipOne
+            // toolTipOne_NVD
             // 
-            this.toolTipOne.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipOne.ToolTipTitle = "Подсказка";
+            this.toolTipOne_NVD.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipOne_NVD.ToolTipTitle = "Подсказка";
             // 
             // FormMain
             // 
@@ -218,7 +218,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 503);
             this.Controls.Add(this.panelFour_NVD);
-            this.Controls.Add(this.splitter1);
+            this.Controls.Add(this.splitterOne_NVD);
             this.Controls.Add(this.panelThree_NVD);
             this.Controls.Add(this.panelTwo_NVD);
             this.Controls.Add(this.panelOne_NVD);
@@ -248,7 +248,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
         private System.Windows.Forms.TextBox textBoxNamedOne_NVD;
         private System.Windows.Forms.Panel panelThree_NVD;
         private System.Windows.Forms.GroupBox groupBoxTwo_NVD;
-        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Splitter splitterOne_NVD;
         private System.Windows.Forms.Panel panelFour_NVD;
         private System.Windows.Forms.GroupBox groupBoxThree_NVD;
         private System.Windows.Forms.TextBox textBoxIn_NVD;
@@ -256,8 +256,8 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
         private System.Windows.Forms.Button buttonOpenFile_NVD;
         private System.Windows.Forms.Button buttonDone_NVD;
         private System.Windows.Forms.Button buttonHelp_NVD;
-        private System.Windows.Forms.OpenFileDialog openFileDialogTask;
-        private System.Windows.Forms.ToolTip toolTipOne;
+        private System.Windows.Forms.OpenFileDialog openFileDialogTask_NVD;
+        private System.Windows.Forms.ToolTip toolTipOne_NVD;
     }
 }
 
