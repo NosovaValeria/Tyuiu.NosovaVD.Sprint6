@@ -41,7 +41,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.panelThree_NVD = new System.Windows.Forms.Panel();
             this.groupBoxTwo_NVD = new System.Windows.Forms.GroupBox();
             this.dataGridViewIn_NVD = new System.Windows.Forms.DataGridView();
-            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.splitterOne_NVD = new System.Windows.Forms.Splitter();
             this.panelFour_NVD = new System.Windows.Forms.Panel();
             this.groupBoxThree_NVD = new System.Windows.Forms.GroupBox();
             this.dataGridViewOut_NVD = new System.Windows.Forms.DataGridView();
@@ -187,13 +187,13 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.dataGridViewIn_NVD.Size = new System.Drawing.Size(506, 360);
             this.dataGridViewIn_NVD.TabIndex = 0;
             // 
-            // splitter1
+            // splitterOne_NVD
             // 
-            this.splitter1.Location = new System.Drawing.Point(512, 172);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 381);
-            this.splitter1.TabIndex = 3;
-            this.splitter1.TabStop = false;
+            this.splitterOne_NVD.Location = new System.Drawing.Point(512, 172);
+            this.splitterOne_NVD.Name = "splitterOne_NVD";
+            this.splitterOne_NVD.Size = new System.Drawing.Size(3, 381);
+            this.splitterOne_NVD.TabIndex = 3;
+            this.splitterOne_NVD.TabStop = false;
             // 
             // panelFour_NVD
             // 
@@ -243,7 +243,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 553);
             this.Controls.Add(this.panelFour_NVD);
-            this.Controls.Add(this.splitter1);
+            this.Controls.Add(this.splitterOne_NVD);
             this.Controls.Add(this.panelThree_NVD);
             this.Controls.Add(this.panelTwo_NVD);
             this.Controls.Add(this.panelOne_NVD);
@@ -275,7 +275,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
         private System.Windows.Forms.TextBox textBoxNamedOne_NVD;
         private System.Windows.Forms.Panel panelThree_NVD;
         private System.Windows.Forms.GroupBox groupBoxTwo_NVD;
-        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Splitter splitterOne_NVD;
         private System.Windows.Forms.Panel panelFour_NVD;
         private System.Windows.Forms.GroupBox groupBoxThree_NVD;
         private System.Windows.Forms.Button buttonOpenFile_NVD;
