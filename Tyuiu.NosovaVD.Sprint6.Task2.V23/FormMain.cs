@@ -53,5 +53,20 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
         {
             MessageBox.Show("Таск 2 выполнил студент группы ПКТб-23-2 Носова Валерия Дмитриевна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void buttonDone_NVD_MouseDown(object sender, MouseEventArgs e)
+        {
+            buttonDone_NVD.BackColor = Color.Blue;
+        }
+
+        private void buttonDone_NVD_MouseLeave(object sender, EventArgs e)
+        {
+            buttonDone_NVD.BackColor = Color.Green;
+        }
+
+        private void buttonDone_NVD_MouseEnter(object sender, EventArgs e)
+        {
+            buttonDone_NVD.BackColor = Color.Red;
+        }
     }
 }

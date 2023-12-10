@@ -37,6 +37,8 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.groupBoxNameedThree_NVD = new System.Windows.Forms.GroupBox();
             this.chartFunction_NVD = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewFunction_NVD = new System.Windows.Forms.DataGridView();
+            this.namedX_NVD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namedFx_NVD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelNamed_NVD = new System.Windows.Forms.Label();
             this.groupBoxNameddTwo_NVD = new System.Windows.Forms.GroupBox();
             this.textBoxNameedOne_NVD = new System.Windows.Forms.TextBox();
@@ -45,8 +47,6 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.textBoxStartStep_NVD = new System.Windows.Forms.TextBox();
             this.buttonHelp_NVD = new System.Windows.Forms.Button();
             this.buttonDone_NVD = new System.Windows.Forms.Button();
-            this.namedX_NVD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namedFx_NVD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBoxNameedOne_NVD.SuspendLayout();
             this.groupBoxNameedThree_NVD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_NVD)).BeginInit();
@@ -98,6 +98,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.chartFunction_NVD.Name = "chartFunction_NVD";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartFunction_NVD.Series.Add(series1);
@@ -118,6 +119,22 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.dataGridViewFunction_NVD.RowTemplate.Height = 24;
             this.dataGridViewFunction_NVD.Size = new System.Drawing.Size(162, 295);
             this.dataGridViewFunction_NVD.TabIndex = 1;
+            // 
+            // namedX_NVD
+            // 
+            this.namedX_NVD.HeaderText = "X";
+            this.namedX_NVD.MinimumWidth = 6;
+            this.namedX_NVD.Name = "namedX_NVD";
+            this.namedX_NVD.ReadOnly = true;
+            this.namedX_NVD.Width = 50;
+            // 
+            // namedFx_NVD
+            // 
+            this.namedFx_NVD.HeaderText = "F(X)";
+            this.namedFx_NVD.MinimumWidth = 6;
+            this.namedFx_NVD.Name = "namedFx_NVD";
+            this.namedFx_NVD.ReadOnly = true;
+            this.namedFx_NVD.Width = 50;
             // 
             // labelNamed_NVD
             // 
@@ -200,22 +217,9 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.buttonDone_NVD.Text = "Выполнить";
             this.buttonDone_NVD.UseVisualStyleBackColor = false;
             this.buttonDone_NVD.Click += new System.EventHandler(this.buttonDone_NVD_Click);
-            // 
-            // namedX_NVD
-            // 
-            this.namedX_NVD.HeaderText = "X";
-            this.namedX_NVD.MinimumWidth = 6;
-            this.namedX_NVD.Name = "namedX_NVD";
-            this.namedX_NVD.ReadOnly = true;
-            this.namedX_NVD.Width = 50;
-            // 
-            // namedFx_NVD
-            // 
-            this.namedFx_NVD.HeaderText = "F(X)";
-            this.namedFx_NVD.MinimumWidth = 6;
-            this.namedFx_NVD.Name = "namedFx_NVD";
-            this.namedFx_NVD.ReadOnly = true;
-            this.namedFx_NVD.Width = 50;
+            this.buttonDone_NVD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonDone_NVD_MouseDown);
+            this.buttonDone_NVD.MouseEnter += new System.EventHandler(this.buttonDone_NVD_MouseEnter);
+            this.buttonDone_NVD.MouseLeave += new System.EventHandler(this.buttonDone_NVD_MouseLeave);
             // 
             // FormMain
             // 
@@ -229,6 +233,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.Controls.Add(this.groupBoxNameedOne_NVD);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 2 | Вариант 23 | Носова В.Д.";
             this.groupBoxNameedOne_NVD.ResumeLayout(false);
             this.groupBoxNameedOne_NVD.PerformLayout();
