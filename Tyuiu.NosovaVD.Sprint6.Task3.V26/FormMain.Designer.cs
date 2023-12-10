@@ -30,8 +30,8 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
         private void InitializeComponent()
         {
             this.groupBoxNamedOne_NVD = new System.Windows.Forms.GroupBox();
-            this.labelText_NVD = new System.Windows.Forms.Label();
             this.dataGridView_NVD = new System.Windows.Forms.DataGridView();
+            this.labelText_NVD = new System.Windows.Forms.Label();
             this.groupBoxNamedTwo_NVD = new System.Windows.Forms.GroupBox();
             this.dataGridViewItog_NVD = new System.Windows.Forms.DataGridView();
             this.buttonHelp_NVD = new System.Windows.Forms.Button();
@@ -53,17 +53,6 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             this.groupBoxNamedOne_NVD.TabStop = false;
             this.groupBoxNamedOne_NVD.Text = "Условие";
             // 
-            // labelText_NVD
-            // 
-            this.labelText_NVD.AutoSize = true;
-            this.labelText_NVD.Location = new System.Drawing.Point(7, 31);
-            this.labelText_NVD.Name = "labelText_NVD";
-            this.labelText_NVD.Size = new System.Drawing.Size(345, 119);
-            this.labelText_NVD.TabIndex = 0;
-            this.labelText_NVD.Text = "Дан массив 5 на 5 элементов. \r\nЗаменить четные значения в третьей строке на 0.\r\n1" +
-    "6  19  17   2   8\r\n -17   8 -17  -8   1\r\n  -7  17  -2   1  -3\r\n -12   0 -17  15 " +
-    "  6\r\n  17  -6 -17  18 -19";
-            // 
             // dataGridView_NVD
             // 
             this.dataGridView_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -75,6 +64,17 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             this.dataGridView_NVD.RowTemplate.Height = 24;
             this.dataGridView_NVD.Size = new System.Drawing.Size(196, 319);
             this.dataGridView_NVD.TabIndex = 1;
+            // 
+            // labelText_NVD
+            // 
+            this.labelText_NVD.AutoSize = true;
+            this.labelText_NVD.Location = new System.Drawing.Point(7, 31);
+            this.labelText_NVD.Name = "labelText_NVD";
+            this.labelText_NVD.Size = new System.Drawing.Size(345, 119);
+            this.labelText_NVD.TabIndex = 0;
+            this.labelText_NVD.Text = "Дан массив 5 на 5 элементов. \r\nЗаменить четные значения в третьей строке на 0.\r\n1" +
+    "6  19  17   2   8\r\n -17   8 -17  -8   1\r\n  -7  17  -2   1  -3\r\n -12   0 -17  15 " +
+    "  6\r\n  17  -6 -17  18 -19";
             // 
             // groupBoxNamedTwo_NVD
             // 
@@ -112,7 +112,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             // 
             this.buttonDone_NVD.Location = new System.Drawing.Point(647, 403);
             this.buttonDone_NVD.Name = "buttonDone_NVD";
-            this.buttonDone_NVD.Size = new System.Drawing.Size(98, 35);
+            this.buttonDone_NVD.Size = new System.Drawing.Size(141, 35);
             this.buttonDone_NVD.TabIndex = 3;
             this.buttonDone_NVD.Text = "Выполнить";
             this.buttonDone_NVD.UseVisualStyleBackColor = true;
@@ -127,7 +127,9 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             this.Controls.Add(this.buttonHelp_NVD);
             this.Controls.Add(this.groupBoxNamedTwo_NVD);
             this.Controls.Add(this.groupBoxNamedOne_NVD);
+            this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 3 | Вариант 26 | Носова В.Д.";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxNamedOne_NVD.ResumeLayout(false);
