@@ -127,6 +127,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             this.Controls.Add(this.buttonHelp_NVD);
             this.Controls.Add(this.groupBoxOut_NVD);
             this.Controls.Add(this.groupBoxIn_NVD);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
