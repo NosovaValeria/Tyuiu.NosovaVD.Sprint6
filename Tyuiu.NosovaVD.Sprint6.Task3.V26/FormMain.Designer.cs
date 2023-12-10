@@ -29,29 +29,29 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBoxNamedOne_NVD = new System.Windows.Forms.GroupBox();
+            this.groupBoxIn_NVD = new System.Windows.Forms.GroupBox();
             this.dataGridView_NVD = new System.Windows.Forms.DataGridView();
-            this.labelText_NVD = new System.Windows.Forms.Label();
-            this.groupBoxNamedTwo_NVD = new System.Windows.Forms.GroupBox();
+            this.labelUslovie_NVD = new System.Windows.Forms.Label();
+            this.groupBoxOut_NVD = new System.Windows.Forms.GroupBox();
             this.dataGridViewItog_NVD = new System.Windows.Forms.DataGridView();
             this.buttonHelp_NVD = new System.Windows.Forms.Button();
             this.buttonDone_NVD = new System.Windows.Forms.Button();
-            this.groupBoxNamedOne_NVD.SuspendLayout();
+            this.groupBoxIn_NVD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_NVD)).BeginInit();
-            this.groupBoxNamedTwo_NVD.SuspendLayout();
+            this.groupBoxOut_NVD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewItog_NVD)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBoxNamedOne_NVD
+            // groupBoxIn_NVD
             // 
-            this.groupBoxNamedOne_NVD.Controls.Add(this.dataGridView_NVD);
-            this.groupBoxNamedOne_NVD.Controls.Add(this.labelText_NVD);
-            this.groupBoxNamedOne_NVD.Location = new System.Drawing.Point(12, 12);
-            this.groupBoxNamedOne_NVD.Name = "groupBoxNamedOne_NVD";
-            this.groupBoxNamedOne_NVD.Size = new System.Drawing.Size(566, 426);
-            this.groupBoxNamedOne_NVD.TabIndex = 0;
-            this.groupBoxNamedOne_NVD.TabStop = false;
-            this.groupBoxNamedOne_NVD.Text = "Условие";
+            this.groupBoxIn_NVD.Controls.Add(this.dataGridView_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.labelUslovie_NVD);
+            this.groupBoxIn_NVD.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxIn_NVD.Name = "groupBoxIn_NVD";
+            this.groupBoxIn_NVD.Size = new System.Drawing.Size(566, 426);
+            this.groupBoxIn_NVD.TabIndex = 0;
+            this.groupBoxIn_NVD.TabStop = false;
+            this.groupBoxIn_NVD.Text = "Условие";
             // 
             // dataGridView_NVD
             // 
@@ -65,26 +65,26 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             this.dataGridView_NVD.Size = new System.Drawing.Size(196, 319);
             this.dataGridView_NVD.TabIndex = 1;
             // 
-            // labelText_NVD
+            // labelUslovie_NVD
             // 
-            this.labelText_NVD.AutoSize = true;
-            this.labelText_NVD.Location = new System.Drawing.Point(7, 31);
-            this.labelText_NVD.Name = "labelText_NVD";
-            this.labelText_NVD.Size = new System.Drawing.Size(345, 119);
-            this.labelText_NVD.TabIndex = 0;
-            this.labelText_NVD.Text = "Дан массив 5 на 5 элементов. \r\nЗаменить четные значения в третьей строке на 0.\r\n1" +
+            this.labelUslovie_NVD.AutoSize = true;
+            this.labelUslovie_NVD.Location = new System.Drawing.Point(7, 31);
+            this.labelUslovie_NVD.Name = "labelUslovie_NVD";
+            this.labelUslovie_NVD.Size = new System.Drawing.Size(345, 119);
+            this.labelUslovie_NVD.TabIndex = 0;
+            this.labelUslovie_NVD.Text = "Дан массив 5 на 5 элементов. \r\nЗаменить четные значения в третьей строке на 0.\r\n1" +
     "6  19  17   2   8\r\n -17   8 -17  -8   1\r\n  -7  17  -2   1  -3\r\n -12   0 -17  15 " +
     "  6\r\n  17  -6 -17  18 -19";
             // 
-            // groupBoxNamedTwo_NVD
+            // groupBoxOut_NVD
             // 
-            this.groupBoxNamedTwo_NVD.Controls.Add(this.dataGridViewItog_NVD);
-            this.groupBoxNamedTwo_NVD.Location = new System.Drawing.Point(585, 12);
-            this.groupBoxNamedTwo_NVD.Name = "groupBoxNamedTwo_NVD";
-            this.groupBoxNamedTwo_NVD.Size = new System.Drawing.Size(203, 360);
-            this.groupBoxNamedTwo_NVD.TabIndex = 1;
-            this.groupBoxNamedTwo_NVD.TabStop = false;
-            this.groupBoxNamedTwo_NVD.Text = "Вывод данных";
+            this.groupBoxOut_NVD.Controls.Add(this.dataGridViewItog_NVD);
+            this.groupBoxOut_NVD.Location = new System.Drawing.Point(585, 12);
+            this.groupBoxOut_NVD.Name = "groupBoxOut_NVD";
+            this.groupBoxOut_NVD.Size = new System.Drawing.Size(203, 360);
+            this.groupBoxOut_NVD.TabIndex = 1;
+            this.groupBoxOut_NVD.TabStop = false;
+            this.groupBoxOut_NVD.Text = "Вывод данных";
             // 
             // dataGridViewItog_NVD
             // 
@@ -125,17 +125,17 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonDone_NVD);
             this.Controls.Add(this.buttonHelp_NVD);
-            this.Controls.Add(this.groupBoxNamedTwo_NVD);
-            this.Controls.Add(this.groupBoxNamedOne_NVD);
+            this.Controls.Add(this.groupBoxOut_NVD);
+            this.Controls.Add(this.groupBoxIn_NVD);
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 3 | Вариант 26 | Носова В.Д.";
             this.Load += new System.EventHandler(this.FormMain_Load);
-            this.groupBoxNamedOne_NVD.ResumeLayout(false);
-            this.groupBoxNamedOne_NVD.PerformLayout();
+            this.groupBoxIn_NVD.ResumeLayout(false);
+            this.groupBoxIn_NVD.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_NVD)).EndInit();
-            this.groupBoxNamedTwo_NVD.ResumeLayout(false);
+            this.groupBoxOut_NVD.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewItog_NVD)).EndInit();
             this.ResumeLayout(false);
 
@@ -143,10 +143,10 @@ namespace Tyuiu.NosovaVD.Sprint6.Task3.V26
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBoxNamedOne_NVD;
-        private System.Windows.Forms.Label labelText_NVD;
+        private System.Windows.Forms.GroupBox groupBoxIn_NVD;
+        private System.Windows.Forms.Label labelUslovie_NVD;
         private System.Windows.Forms.DataGridView dataGridView_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNamedTwo_NVD;
+        private System.Windows.Forms.GroupBox groupBoxOut_NVD;
         private System.Windows.Forms.DataGridView dataGridViewItog_NVD;
         private System.Windows.Forms.Button buttonHelp_NVD;
         private System.Windows.Forms.Button buttonDone_NVD;
