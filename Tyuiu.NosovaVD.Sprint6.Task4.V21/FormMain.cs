@@ -55,7 +55,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
         {
             try
             {
-                string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask4.V21.txt";
+                string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask4V21.txt";
                 File.WriteAllText(path, textBoxResult_NVD.Text);
 
                 DialogResult dialogResult = MessageBox.Show("Файл " + path + " сохранен успешно!\nОткрыть его в блокноте?", "Сообщение", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
