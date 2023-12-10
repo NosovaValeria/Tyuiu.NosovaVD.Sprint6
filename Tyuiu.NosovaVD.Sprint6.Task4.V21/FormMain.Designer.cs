@@ -114,20 +114,23 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             // groupBoxNameedThree_NVD
             // 
             this.groupBoxNameedThree_NVD.Controls.Add(this.textBoxResult_NVD);
-            this.groupBoxNameedThree_NVD.Location = new System.Drawing.Point(3, 6);
+            this.groupBoxNameedThree_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxNameedThree_NVD.Location = new System.Drawing.Point(0, 0);
             this.groupBoxNameedThree_NVD.Name = "groupBoxNameedThree_NVD";
-            this.groupBoxNameedThree_NVD.Size = new System.Drawing.Size(255, 338);
-            this.groupBoxNameedThree_NVD.TabIndex = 9;
+            this.groupBoxNameedThree_NVD.Size = new System.Drawing.Size(273, 350);
+            this.groupBoxNameedThree_NVD.TabIndex = 0;
             this.groupBoxNameedThree_NVD.TabStop = false;
             this.groupBoxNameedThree_NVD.Text = "Вывод";
             // 
             // textBoxResult_NVD
             // 
-            this.textBoxResult_NVD.Location = new System.Drawing.Point(7, 22);
-            this.textBoxResult_NVD.MinimumSize = new System.Drawing.Size(4, 100);
+            this.textBoxResult_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxResult_NVD.Location = new System.Drawing.Point(3, 18);
             this.textBoxResult_NVD.Multiline = true;
             this.textBoxResult_NVD.Name = "textBoxResult_NVD";
-            this.textBoxResult_NVD.Size = new System.Drawing.Size(242, 301);
+            this.textBoxResult_NVD.ReadOnly = true;
+            this.textBoxResult_NVD.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxResult_NVD.Size = new System.Drawing.Size(267, 329);
             this.textBoxResult_NVD.TabIndex = 0;
             // 
             // buttonHelp_NVD
@@ -188,16 +191,17 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             // 
             chartArea1.Name = "ChartArea1";
             this.chartFunction_NVD.ChartAreas.Add(chartArea1);
+            this.chartFunction_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
             legend1.Name = "Legend1";
             this.chartFunction_NVD.Legends.Add(legend1);
-            this.chartFunction_NVD.Location = new System.Drawing.Point(16, 15);
+            this.chartFunction_NVD.Location = new System.Drawing.Point(0, 0);
             this.chartFunction_NVD.Name = "chartFunction_NVD";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartFunction_NVD.Series.Add(series1);
-            this.chartFunction_NVD.Size = new System.Drawing.Size(828, 323);
+            this.chartFunction_NVD.Size = new System.Drawing.Size(856, 350);
             this.chartFunction_NVD.TabIndex = 14;
             this.chartFunction_NVD.Text = "chart1";
             title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
@@ -217,7 +221,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             this.panelOne_NVD.Location = new System.Drawing.Point(0, 0);
             this.panelOne_NVD.Name = "panelOne_NVD";
             this.panelOne_NVD.Size = new System.Drawing.Size(1132, 100);
-            this.panelOne_NVD.TabIndex = 15;
+            this.panelOne_NVD.TabIndex = 7;
             // 
             // panelTwo_NVD
             // 
@@ -226,7 +230,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             this.panelTwo_NVD.Location = new System.Drawing.Point(0, 100);
             this.panelTwo_NVD.Name = "panelTwo_NVD";
             this.panelTwo_NVD.Size = new System.Drawing.Size(273, 350);
-            this.panelTwo_NVD.TabIndex = 16;
+            this.panelTwo_NVD.TabIndex = 8;
             // 
             // splitterOne_NVD
             // 
@@ -243,7 +247,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             this.panelThree_NVD.Location = new System.Drawing.Point(276, 100);
             this.panelThree_NVD.Name = "panelThree_NVD";
             this.panelThree_NVD.Size = new System.Drawing.Size(856, 350);
-            this.panelThree_NVD.TabIndex = 18;
+            this.panelThree_NVD.TabIndex = 10;
             // 
             // FormMain
             // 
