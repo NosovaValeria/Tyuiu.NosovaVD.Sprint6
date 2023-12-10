@@ -247,7 +247,6 @@ namespace Tyuiu.NosovaVD.Sprint6.Task7.V29
             this.Controls.Add(this.panelThree_NVD);
             this.Controls.Add(this.panelTwo_NVD);
             this.Controls.Add(this.panelOne_NVD);
-            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1050, 600);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
