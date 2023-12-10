@@ -183,7 +183,9 @@ namespace Tyuiu.NosovaVD.Sprint6.Task1.V18
             this.Controls.Add(this.buttonHelp_NVD);
             this.Controls.Add(this.buttonDone_NVD);
             this.Controls.Add(this.groupBoxNamedOne_NVD);
+            this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 18 | Носова В.Д.";
             this.groupBoxNamedOne_NVD.ResumeLayout(false);
             this.groupBoxNamedOne_NVD.PerformLayout();
