@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxNaamedOne_NVD.Text" xml:space="preserve">
+  <data name="textBoxUslovie_NVD.Text" xml:space="preserve">
     <value>Протабулировать функцию (2 * Cos(x) + 2)/(2 * x - 1) + Cos(x) - 5 * x + 3 на диапазоне от -5 до 5. Результат вывести в textBox, построить график функции и сохранить в файл OutPutFileTask4V21.txt по нажатию кнопки
 </value>
   </data>
