@@ -29,79 +29,79 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.groupBoxNameedOne_NVD = new System.Windows.Forms.GroupBox();
-            this.textBoxNaamedOne_NVD = new System.Windows.Forms.TextBox();
-            this.groupBoxNameedThree_NVD = new System.Windows.Forms.GroupBox();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.groupBoxUslovie_NVD = new System.Windows.Forms.GroupBox();
+            this.textBoxUslovie_NVD = new System.Windows.Forms.TextBox();
+            this.groupBoxOut_NVD = new System.Windows.Forms.GroupBox();
             this.chartFunction_NVD = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewFunction_NVD = new System.Windows.Forms.DataGridView();
             this.namedX_NVD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.namedFx_NVD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.labelNamed_NVD = new System.Windows.Forms.Label();
-            this.groupBoxNameddTwo_NVD = new System.Windows.Forms.GroupBox();
-            this.textBoxNameedOne_NVD = new System.Windows.Forms.TextBox();
-            this.textBoxNamedThree_NVD = new System.Windows.Forms.TextBox();
+            this.labelResultat_NVD = new System.Windows.Forms.Label();
+            this.groupBoxIn_NVD = new System.Windows.Forms.GroupBox();
+            this.textBoxStop_NVD = new System.Windows.Forms.TextBox();
+            this.textBoxStart_NVD = new System.Windows.Forms.TextBox();
             this.textBoxStopStep_NVD = new System.Windows.Forms.TextBox();
             this.textBoxStartStep_NVD = new System.Windows.Forms.TextBox();
             this.buttonHelp_NVD = new System.Windows.Forms.Button();
             this.buttonDone_NVD = new System.Windows.Forms.Button();
-            this.groupBoxNameedOne_NVD.SuspendLayout();
-            this.groupBoxNameedThree_NVD.SuspendLayout();
+            this.groupBoxUslovie_NVD.SuspendLayout();
+            this.groupBoxOut_NVD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_NVD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_NVD)).BeginInit();
-            this.groupBoxNameddTwo_NVD.SuspendLayout();
+            this.groupBoxIn_NVD.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBoxNameedOne_NVD
+            // groupBoxUslovie_NVD
             // 
-            this.groupBoxNameedOne_NVD.Controls.Add(this.textBoxNaamedOne_NVD);
-            this.groupBoxNameedOne_NVD.Location = new System.Drawing.Point(12, 12);
-            this.groupBoxNameedOne_NVD.Name = "groupBoxNameedOne_NVD";
-            this.groupBoxNameedOne_NVD.Size = new System.Drawing.Size(493, 260);
-            this.groupBoxNameedOne_NVD.TabIndex = 0;
-            this.groupBoxNameedOne_NVD.TabStop = false;
-            this.groupBoxNameedOne_NVD.Text = "Условие";
+            this.groupBoxUslovie_NVD.Controls.Add(this.textBoxUslovie_NVD);
+            this.groupBoxUslovie_NVD.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxUslovie_NVD.Name = "groupBoxUslovie_NVD";
+            this.groupBoxUslovie_NVD.Size = new System.Drawing.Size(493, 260);
+            this.groupBoxUslovie_NVD.TabIndex = 0;
+            this.groupBoxUslovie_NVD.TabStop = false;
+            this.groupBoxUslovie_NVD.Text = "Условие";
             // 
-            // textBoxNaamedOne_NVD
+            // textBoxUslovie_NVD
             // 
-            this.textBoxNaamedOne_NVD.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxNaamedOne_NVD.Location = new System.Drawing.Point(6, 21);
-            this.textBoxNaamedOne_NVD.Multiline = true;
-            this.textBoxNaamedOne_NVD.Name = "textBoxNaamedOne_NVD";
-            this.textBoxNaamedOne_NVD.ReadOnly = true;
-            this.textBoxNaamedOne_NVD.Size = new System.Drawing.Size(482, 54);
-            this.textBoxNaamedOne_NVD.TabIndex = 3;
-            this.textBoxNaamedOne_NVD.Text = "Протабулировать функцию (4-2x + (2+cos(x))/(2x-2)) на заданном диапазоне. Результ" +
+            this.textBoxUslovie_NVD.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxUslovie_NVD.Location = new System.Drawing.Point(6, 21);
+            this.textBoxUslovie_NVD.Multiline = true;
+            this.textBoxUslovie_NVD.Name = "textBoxUslovie_NVD";
+            this.textBoxUslovie_NVD.ReadOnly = true;
+            this.textBoxUslovie_NVD.Size = new System.Drawing.Size(482, 54);
+            this.textBoxUslovie_NVD.TabIndex = 3;
+            this.textBoxUslovie_NVD.Text = "Протабулировать функцию (4-2x + (2+cos(x))/(2x-2)) на заданном диапазоне. Результ" +
     "ат вывести в DataGridView и построить график функции.";
             // 
-            // groupBoxNameedThree_NVD
+            // groupBoxOut_NVD
             // 
-            this.groupBoxNameedThree_NVD.Controls.Add(this.chartFunction_NVD);
-            this.groupBoxNameedThree_NVD.Controls.Add(this.dataGridViewFunction_NVD);
-            this.groupBoxNameedThree_NVD.Controls.Add(this.labelNamed_NVD);
-            this.groupBoxNameedThree_NVD.Location = new System.Drawing.Point(519, 12);
-            this.groupBoxNameedThree_NVD.Name = "groupBoxNameedThree_NVD";
-            this.groupBoxNameedThree_NVD.Size = new System.Drawing.Size(601, 379);
-            this.groupBoxNameedThree_NVD.TabIndex = 2;
-            this.groupBoxNameedThree_NVD.TabStop = false;
-            this.groupBoxNameedThree_NVD.Text = "Вывод данных";
+            this.groupBoxOut_NVD.Controls.Add(this.chartFunction_NVD);
+            this.groupBoxOut_NVD.Controls.Add(this.dataGridViewFunction_NVD);
+            this.groupBoxOut_NVD.Controls.Add(this.labelResultat_NVD);
+            this.groupBoxOut_NVD.Location = new System.Drawing.Point(519, 12);
+            this.groupBoxOut_NVD.Name = "groupBoxOut_NVD";
+            this.groupBoxOut_NVD.Size = new System.Drawing.Size(601, 379);
+            this.groupBoxOut_NVD.TabIndex = 2;
+            this.groupBoxOut_NVD.TabStop = false;
+            this.groupBoxOut_NVD.Text = "Вывод данных";
             // 
             // chartFunction_NVD
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_NVD.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartFunction_NVD.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartFunction_NVD.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartFunction_NVD.Legends.Add(legend2);
             this.chartFunction_NVD.Location = new System.Drawing.Point(174, 48);
             this.chartFunction_NVD.Name = "chartFunction_NVD";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_NVD.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartFunction_NVD.Series.Add(series2);
             this.chartFunction_NVD.Size = new System.Drawing.Size(421, 300);
             this.chartFunction_NVD.TabIndex = 2;
             this.chartFunction_NVD.Text = "chart1";
@@ -136,47 +136,47 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.namedFx_NVD.ReadOnly = true;
             this.namedFx_NVD.Width = 50;
             // 
-            // labelNamed_NVD
+            // labelResultat_NVD
             // 
-            this.labelNamed_NVD.AutoSize = true;
-            this.labelNamed_NVD.Location = new System.Drawing.Point(7, 22);
-            this.labelNamed_NVD.Name = "labelNamed_NVD";
-            this.labelNamed_NVD.Size = new System.Drawing.Size(76, 17);
-            this.labelNamed_NVD.TabIndex = 0;
-            this.labelNamed_NVD.Text = "Результат";
+            this.labelResultat_NVD.AutoSize = true;
+            this.labelResultat_NVD.Location = new System.Drawing.Point(7, 22);
+            this.labelResultat_NVD.Name = "labelResultat_NVD";
+            this.labelResultat_NVD.Size = new System.Drawing.Size(76, 17);
+            this.labelResultat_NVD.TabIndex = 0;
+            this.labelResultat_NVD.Text = "Результат";
             // 
-            // groupBoxNameddTwo_NVD
+            // groupBoxIn_NVD
             // 
-            this.groupBoxNameddTwo_NVD.Controls.Add(this.textBoxNameedOne_NVD);
-            this.groupBoxNameddTwo_NVD.Controls.Add(this.textBoxNamedThree_NVD);
-            this.groupBoxNameddTwo_NVD.Controls.Add(this.textBoxStopStep_NVD);
-            this.groupBoxNameddTwo_NVD.Controls.Add(this.textBoxStartStep_NVD);
-            this.groupBoxNameddTwo_NVD.Location = new System.Drawing.Point(12, 278);
-            this.groupBoxNameddTwo_NVD.Name = "groupBoxNameddTwo_NVD";
-            this.groupBoxNameddTwo_NVD.Size = new System.Drawing.Size(280, 82);
-            this.groupBoxNameddTwo_NVD.TabIndex = 7;
-            this.groupBoxNameddTwo_NVD.TabStop = false;
-            this.groupBoxNameddTwo_NVD.Text = "Ввод данных:";
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStop_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStart_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStopStep_NVD);
+            this.groupBoxIn_NVD.Controls.Add(this.textBoxStartStep_NVD);
+            this.groupBoxIn_NVD.Location = new System.Drawing.Point(12, 278);
+            this.groupBoxIn_NVD.Name = "groupBoxIn_NVD";
+            this.groupBoxIn_NVD.Size = new System.Drawing.Size(280, 82);
+            this.groupBoxIn_NVD.TabIndex = 7;
+            this.groupBoxIn_NVD.TabStop = false;
+            this.groupBoxIn_NVD.Text = "Ввод данных:";
             // 
-            // textBoxNameedOne_NVD
+            // textBoxStop_NVD
             // 
-            this.textBoxNameedOne_NVD.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxNameedOne_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNameedOne_NVD.Location = new System.Drawing.Point(133, 21);
-            this.textBoxNameedOne_NVD.Name = "textBoxNameedOne_NVD";
-            this.textBoxNameedOne_NVD.Size = new System.Drawing.Size(114, 15);
-            this.textBoxNameedOne_NVD.TabIndex = 6;
-            this.textBoxNameedOne_NVD.Text = "Конец шага:";
+            this.textBoxStop_NVD.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxStop_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxStop_NVD.Location = new System.Drawing.Point(133, 21);
+            this.textBoxStop_NVD.Name = "textBoxStop_NVD";
+            this.textBoxStop_NVD.Size = new System.Drawing.Size(114, 15);
+            this.textBoxStop_NVD.TabIndex = 6;
+            this.textBoxStop_NVD.Text = "Конец шага:";
             // 
-            // textBoxNamedThree_NVD
+            // textBoxStart_NVD
             // 
-            this.textBoxNamedThree_NVD.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxNamedThree_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNamedThree_NVD.Location = new System.Drawing.Point(13, 21);
-            this.textBoxNamedThree_NVD.Name = "textBoxNamedThree_NVD";
-            this.textBoxNamedThree_NVD.Size = new System.Drawing.Size(85, 15);
-            this.textBoxNamedThree_NVD.TabIndex = 5;
-            this.textBoxNamedThree_NVD.Text = "Старт шага:";
+            this.textBoxStart_NVD.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxStart_NVD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxStart_NVD.Location = new System.Drawing.Point(13, 21);
+            this.textBoxStart_NVD.Name = "textBoxStart_NVD";
+            this.textBoxStart_NVD.Size = new System.Drawing.Size(85, 15);
+            this.textBoxStart_NVD.TabIndex = 5;
+            this.textBoxStart_NVD.Text = "Старт шага:";
             // 
             // textBoxStopStep_NVD
             // 
@@ -226,41 +226,42 @@ namespace Tyuiu.NosovaVD.Sprint6.Task2.V23
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1132, 386);
-            this.Controls.Add(this.groupBoxNameddTwo_NVD);
-            this.Controls.Add(this.groupBoxNameedThree_NVD);
+            this.Controls.Add(this.groupBoxIn_NVD);
+            this.Controls.Add(this.groupBoxOut_NVD);
             this.Controls.Add(this.buttonHelp_NVD);
             this.Controls.Add(this.buttonDone_NVD);
-            this.Controls.Add(this.groupBoxNameedOne_NVD);
+            this.Controls.Add(this.groupBoxUslovie_NVD);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 2 | Вариант 23 | Носова В.Д.";
-            this.groupBoxNameedOne_NVD.ResumeLayout(false);
-            this.groupBoxNameedOne_NVD.PerformLayout();
-            this.groupBoxNameedThree_NVD.ResumeLayout(false);
-            this.groupBoxNameedThree_NVD.PerformLayout();
+            this.groupBoxUslovie_NVD.ResumeLayout(false);
+            this.groupBoxUslovie_NVD.PerformLayout();
+            this.groupBoxOut_NVD.ResumeLayout(false);
+            this.groupBoxOut_NVD.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_NVD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_NVD)).EndInit();
-            this.groupBoxNameddTwo_NVD.ResumeLayout(false);
-            this.groupBoxNameddTwo_NVD.PerformLayout();
+            this.groupBoxIn_NVD.ResumeLayout(false);
+            this.groupBoxIn_NVD.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBoxNameedOne_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNameedThree_NVD;
-        private System.Windows.Forms.TextBox textBoxNaamedOne_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNameddTwo_NVD;
-        private System.Windows.Forms.TextBox textBoxNameedOne_NVD;
-        private System.Windows.Forms.TextBox textBoxNamedThree_NVD;
+        private System.Windows.Forms.GroupBox groupBoxUslovie_NVD;
+        private System.Windows.Forms.GroupBox groupBoxOut_NVD;
+        private System.Windows.Forms.TextBox textBoxUslovie_NVD;
+        private System.Windows.Forms.GroupBox groupBoxIn_NVD;
+        private System.Windows.Forms.TextBox textBoxStop_NVD;
+        private System.Windows.Forms.TextBox textBoxStart_NVD;
         private System.Windows.Forms.TextBox textBoxStopStep_NVD;
         private System.Windows.Forms.TextBox textBoxStartStep_NVD;
         private System.Windows.Forms.Button buttonHelp_NVD;
         private System.Windows.Forms.Button buttonDone_NVD;
         private System.Windows.Forms.DataGridView dataGridViewFunction_NVD;
-        private System.Windows.Forms.Label labelNamed_NVD;
+        private System.Windows.Forms.Label labelResultat_NVD;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFunction_NVD;
         private System.Windows.Forms.DataGridViewTextBoxColumn namedX_NVD;
         private System.Windows.Forms.DataGridViewTextBoxColumn namedFx_NVD;
