@@ -32,35 +32,35 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.panelThree_NVD = new System.Windows.Forms.Panel();
+            this.panelRight_NVD = new System.Windows.Forms.Panel();
             this.chartNums_NVD = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.splitterOne_NVD = new System.Windows.Forms.Splitter();
-            this.panelTwo_NVD = new System.Windows.Forms.Panel();
-            this.groupBoxNameedThree_NVD = new System.Windows.Forms.GroupBox();
+            this.panelLeft_NVD = new System.Windows.Forms.Panel();
+            this.groupBoxOut_NVD = new System.Windows.Forms.GroupBox();
             this.dataGridViewNums_NVD = new System.Windows.Forms.DataGridView();
-            this.panelOne_NVD = new System.Windows.Forms.Panel();
-            this.groupBoxNameedOne_NVD = new System.Windows.Forms.GroupBox();
-            this.textBoxNaamedOne_NVD = new System.Windows.Forms.TextBox();
+            this.panelTop_NVD = new System.Windows.Forms.Panel();
+            this.groupBoxUslovie_NVD = new System.Windows.Forms.GroupBox();
+            this.textBoxUslovie_NVD = new System.Windows.Forms.TextBox();
             this.buttonDone_NVD = new System.Windows.Forms.Button();
             this.buttonOpenFile_NVD = new System.Windows.Forms.Button();
             this.buttonInfo_NVD = new System.Windows.Forms.Button();
-            this.panelThree_NVD.SuspendLayout();
+            this.panelRight_NVD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartNums_NVD)).BeginInit();
-            this.panelTwo_NVD.SuspendLayout();
-            this.groupBoxNameedThree_NVD.SuspendLayout();
+            this.panelLeft_NVD.SuspendLayout();
+            this.groupBoxOut_NVD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNums_NVD)).BeginInit();
-            this.panelOne_NVD.SuspendLayout();
-            this.groupBoxNameedOne_NVD.SuspendLayout();
+            this.panelTop_NVD.SuspendLayout();
+            this.groupBoxUslovie_NVD.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panelThree_NVD
+            // panelRight_NVD
             // 
-            this.panelThree_NVD.Controls.Add(this.chartNums_NVD);
-            this.panelThree_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelThree_NVD.Location = new System.Drawing.Point(225, 100);
-            this.panelThree_NVD.Name = "panelThree_NVD";
-            this.panelThree_NVD.Size = new System.Drawing.Size(627, 350);
-            this.panelThree_NVD.TabIndex = 22;
+            this.panelRight_NVD.Controls.Add(this.chartNums_NVD);
+            this.panelRight_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRight_NVD.Location = new System.Drawing.Point(225, 100);
+            this.panelRight_NVD.Name = "panelRight_NVD";
+            this.panelRight_NVD.Size = new System.Drawing.Size(627, 350);
+            this.panelRight_NVD.TabIndex = 22;
             // 
             // chartNums_NVD
             // 
@@ -88,25 +88,25 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             this.splitterOne_NVD.TabIndex = 21;
             this.splitterOne_NVD.TabStop = false;
             // 
-            // panelTwo_NVD
+            // panelLeft_NVD
             // 
-            this.panelTwo_NVD.Controls.Add(this.groupBoxNameedThree_NVD);
-            this.panelTwo_NVD.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelTwo_NVD.Location = new System.Drawing.Point(0, 100);
-            this.panelTwo_NVD.Name = "panelTwo_NVD";
-            this.panelTwo_NVD.Size = new System.Drawing.Size(222, 350);
-            this.panelTwo_NVD.TabIndex = 20;
+            this.panelLeft_NVD.Controls.Add(this.groupBoxOut_NVD);
+            this.panelLeft_NVD.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft_NVD.Location = new System.Drawing.Point(0, 100);
+            this.panelLeft_NVD.Name = "panelLeft_NVD";
+            this.panelLeft_NVD.Size = new System.Drawing.Size(222, 350);
+            this.panelLeft_NVD.TabIndex = 20;
             // 
-            // groupBoxNameedThree_NVD
+            // groupBoxOut_NVD
             // 
-            this.groupBoxNameedThree_NVD.Controls.Add(this.dataGridViewNums_NVD);
-            this.groupBoxNameedThree_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxNameedThree_NVD.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxNameedThree_NVD.Name = "groupBoxNameedThree_NVD";
-            this.groupBoxNameedThree_NVD.Size = new System.Drawing.Size(222, 350);
-            this.groupBoxNameedThree_NVD.TabIndex = 9;
-            this.groupBoxNameedThree_NVD.TabStop = false;
-            this.groupBoxNameedThree_NVD.Text = "Вывод";
+            this.groupBoxOut_NVD.Controls.Add(this.dataGridViewNums_NVD);
+            this.groupBoxOut_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxOut_NVD.Location = new System.Drawing.Point(0, 0);
+            this.groupBoxOut_NVD.Name = "groupBoxOut_NVD";
+            this.groupBoxOut_NVD.Size = new System.Drawing.Size(222, 350);
+            this.groupBoxOut_NVD.TabIndex = 9;
+            this.groupBoxOut_NVD.TabStop = false;
+            this.groupBoxOut_NVD.Text = "Вывод";
             // 
             // dataGridViewNums_NVD
             // 
@@ -122,38 +122,38 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             this.dataGridViewNums_NVD.Size = new System.Drawing.Size(216, 329);
             this.dataGridViewNums_NVD.TabIndex = 0;
             // 
-            // panelOne_NVD
+            // panelTop_NVD
             // 
-            this.panelOne_NVD.Controls.Add(this.groupBoxNameedOne_NVD);
-            this.panelOne_NVD.Controls.Add(this.buttonDone_NVD);
-            this.panelOne_NVD.Controls.Add(this.buttonOpenFile_NVD);
-            this.panelOne_NVD.Controls.Add(this.buttonInfo_NVD);
-            this.panelOne_NVD.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelOne_NVD.Location = new System.Drawing.Point(0, 0);
-            this.panelOne_NVD.Name = "panelOne_NVD";
-            this.panelOne_NVD.Size = new System.Drawing.Size(852, 100);
-            this.panelOne_NVD.TabIndex = 19;
+            this.panelTop_NVD.Controls.Add(this.groupBoxUslovie_NVD);
+            this.panelTop_NVD.Controls.Add(this.buttonDone_NVD);
+            this.panelTop_NVD.Controls.Add(this.buttonOpenFile_NVD);
+            this.panelTop_NVD.Controls.Add(this.buttonInfo_NVD);
+            this.panelTop_NVD.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTop_NVD.Location = new System.Drawing.Point(0, 0);
+            this.panelTop_NVD.Name = "panelTop_NVD";
+            this.panelTop_NVD.Size = new System.Drawing.Size(852, 100);
+            this.panelTop_NVD.TabIndex = 19;
             // 
-            // groupBoxNameedOne_NVD
+            // groupBoxUslovie_NVD
             // 
-            this.groupBoxNameedOne_NVD.Controls.Add(this.textBoxNaamedOne_NVD);
-            this.groupBoxNameedOne_NVD.Location = new System.Drawing.Point(3, 3);
-            this.groupBoxNameedOne_NVD.Name = "groupBoxNameedOne_NVD";
-            this.groupBoxNameedOne_NVD.Size = new System.Drawing.Size(503, 91);
-            this.groupBoxNameedOne_NVD.TabIndex = 8;
-            this.groupBoxNameedOne_NVD.TabStop = false;
-            this.groupBoxNameedOne_NVD.Text = "Условие";
+            this.groupBoxUslovie_NVD.Controls.Add(this.textBoxUslovie_NVD);
+            this.groupBoxUslovie_NVD.Location = new System.Drawing.Point(3, 3);
+            this.groupBoxUslovie_NVD.Name = "groupBoxUslovie_NVD";
+            this.groupBoxUslovie_NVD.Size = new System.Drawing.Size(503, 91);
+            this.groupBoxUslovie_NVD.TabIndex = 8;
+            this.groupBoxUslovie_NVD.TabStop = false;
+            this.groupBoxUslovie_NVD.Text = "Условие";
             // 
-            // textBoxNaamedOne_NVD
+            // textBoxUslovie_NVD
             // 
-            this.textBoxNaamedOne_NVD.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxNaamedOne_NVD.Location = new System.Drawing.Point(6, 21);
-            this.textBoxNaamedOne_NVD.Multiline = true;
-            this.textBoxNaamedOne_NVD.Name = "textBoxNaamedOne_NVD";
-            this.textBoxNaamedOne_NVD.ReadOnly = true;
-            this.textBoxNaamedOne_NVD.Size = new System.Drawing.Size(490, 61);
-            this.textBoxNaamedOne_NVD.TabIndex = 3;
-            this.textBoxNaamedOne_NVD.Text = "Прочитать данные из файла InPutFileTask5V25.txt. Вывести в dataGridView. Дан спис" +
+            this.textBoxUslovie_NVD.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxUslovie_NVD.Location = new System.Drawing.Point(6, 21);
+            this.textBoxUslovie_NVD.Multiline = true;
+            this.textBoxUslovie_NVD.Name = "textBoxUslovie_NVD";
+            this.textBoxUslovie_NVD.ReadOnly = true;
+            this.textBoxUslovie_NVD.Size = new System.Drawing.Size(490, 61);
+            this.textBoxUslovie_NVD.TabIndex = 3;
+            this.textBoxUslovie_NVD.Text = "Прочитать данные из файла InPutFileTask5V25.txt. Вывести в dataGridView. Дан спис" +
     "ок из чисел. Вывести все числа, не равные 0. Построить диаграмму по этим значени" +
     "ям. ";
             // 
@@ -196,37 +196,37 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 450);
-            this.Controls.Add(this.panelThree_NVD);
+            this.Controls.Add(this.panelRight_NVD);
             this.Controls.Add(this.splitterOne_NVD);
-            this.Controls.Add(this.panelTwo_NVD);
-            this.Controls.Add(this.panelOne_NVD);
+            this.Controls.Add(this.panelLeft_NVD);
+            this.Controls.Add(this.panelTop_NVD);
             this.MinimumSize = new System.Drawing.Size(870, 497);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 5 | Вариант 25 | Носова В.Д.";
-            this.panelThree_NVD.ResumeLayout(false);
+            this.panelRight_NVD.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartNums_NVD)).EndInit();
-            this.panelTwo_NVD.ResumeLayout(false);
-            this.groupBoxNameedThree_NVD.ResumeLayout(false);
+            this.panelLeft_NVD.ResumeLayout(false);
+            this.groupBoxOut_NVD.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNums_NVD)).EndInit();
-            this.panelOne_NVD.ResumeLayout(false);
-            this.groupBoxNameedOne_NVD.ResumeLayout(false);
-            this.groupBoxNameedOne_NVD.PerformLayout();
+            this.panelTop_NVD.ResumeLayout(false);
+            this.groupBoxUslovie_NVD.ResumeLayout(false);
+            this.groupBoxUslovie_NVD.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panelThree_NVD;
+        private System.Windows.Forms.Panel panelRight_NVD;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartNums_NVD;
         private System.Windows.Forms.Splitter splitterOne_NVD;
-        private System.Windows.Forms.Panel panelTwo_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNameedThree_NVD;
+        private System.Windows.Forms.Panel panelLeft_NVD;
+        private System.Windows.Forms.GroupBox groupBoxOut_NVD;
         private System.Windows.Forms.DataGridView dataGridViewNums_NVD;
-        private System.Windows.Forms.Panel panelOne_NVD;
-        private System.Windows.Forms.GroupBox groupBoxNameedOne_NVD;
-        private System.Windows.Forms.TextBox textBoxNaamedOne_NVD;
+        private System.Windows.Forms.Panel panelTop_NVD;
+        private System.Windows.Forms.GroupBox groupBoxUslovie_NVD;
+        private System.Windows.Forms.TextBox textBoxUslovie_NVD;
         private System.Windows.Forms.Button buttonDone_NVD;
         private System.Windows.Forms.Button buttonOpenFile_NVD;
         private System.Windows.Forms.Button buttonInfo_NVD;
