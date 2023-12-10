@@ -24,7 +24,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task6.V28
              openFileDialogTask_NVD.ShowDialog();
             openFilePath = openFileDialogTask_NVD.FileName;
             textBoxIn_NVD.Text = File.ReadAllText(openFilePath);
-            groupBoxTwo_NVD.Text = groupBoxTwo_NVD.Text + " " + openFileDialogTask_NVD.FileName;
+            groupBoxIn_NVD.Text = groupBoxIn_NVD.Text + " " + openFileDialogTask_NVD.FileName;
             buttonDone_NVD.Enabled = true;
         }
 
