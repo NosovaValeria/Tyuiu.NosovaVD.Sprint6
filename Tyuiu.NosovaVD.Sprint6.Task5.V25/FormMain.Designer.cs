@@ -29,9 +29,9 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelThree_NVD = new System.Windows.Forms.Panel();
             this.chartNums_NVD = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.splitterOne_NVD = new System.Windows.Forms.Splitter();
@@ -64,17 +64,19 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             // 
             // chartNums_NVD
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartNums_NVD.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartNums_NVD.Legends.Add(legend2);
-            this.chartNums_NVD.Location = new System.Drawing.Point(6, 17);
+            chartArea1.Name = "ChartArea1";
+            this.chartNums_NVD.ChartAreas.Add(chartArea1);
+            this.chartNums_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend1.Name = "Legend1";
+            this.chartNums_NVD.Legends.Add(legend1);
+            this.chartNums_NVD.Location = new System.Drawing.Point(0, 0);
             this.chartNums_NVD.Name = "chartNums_NVD";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartNums_NVD.Series.Add(series2);
-            this.chartNums_NVD.Size = new System.Drawing.Size(608, 321);
+            series1.ChartArea = "ChartArea1";
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartNums_NVD.Series.Add(series1);
+            this.chartNums_NVD.Size = new System.Drawing.Size(627, 350);
             this.chartNums_NVD.TabIndex = 0;
             this.chartNums_NVD.Text = "chart1";
             // 
@@ -98,9 +100,10 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             // groupBoxNameedThree_NVD
             // 
             this.groupBoxNameedThree_NVD.Controls.Add(this.dataGridViewNums_NVD);
-            this.groupBoxNameedThree_NVD.Location = new System.Drawing.Point(3, 6);
+            this.groupBoxNameedThree_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxNameedThree_NVD.Location = new System.Drawing.Point(0, 0);
             this.groupBoxNameedThree_NVD.Name = "groupBoxNameedThree_NVD";
-            this.groupBoxNameedThree_NVD.Size = new System.Drawing.Size(207, 338);
+            this.groupBoxNameedThree_NVD.Size = new System.Drawing.Size(222, 350);
             this.groupBoxNameedThree_NVD.TabIndex = 9;
             this.groupBoxNameedThree_NVD.TabStop = false;
             this.groupBoxNameedThree_NVD.Text = "Вывод";
@@ -110,12 +113,13 @@ namespace Tyuiu.NosovaVD.Sprint6.Task5.V25
             this.dataGridViewNums_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewNums_NVD.ColumnHeadersVisible = false;
             this.dataGridViewNums_NVD.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.dataGridViewNums_NVD.Location = new System.Drawing.Point(6, 21);
+            this.dataGridViewNums_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewNums_NVD.Location = new System.Drawing.Point(3, 18);
             this.dataGridViewNums_NVD.Name = "dataGridViewNums_NVD";
             this.dataGridViewNums_NVD.RowHeadersVisible = false;
             this.dataGridViewNums_NVD.RowHeadersWidth = 51;
             this.dataGridViewNums_NVD.RowTemplate.Height = 24;
-            this.dataGridViewNums_NVD.Size = new System.Drawing.Size(190, 311);
+            this.dataGridViewNums_NVD.Size = new System.Drawing.Size(216, 329);
             this.dataGridViewNums_NVD.TabIndex = 0;
             // 
             // panelOne_NVD
