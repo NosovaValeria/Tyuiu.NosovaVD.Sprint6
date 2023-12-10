@@ -135,6 +135,7 @@ namespace Tyuiu.NosovaVD.Sprint6.Task4.V21
             // 
             // buttonHelp_NVD
             // 
+            this.buttonHelp_NVD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonHelp_NVD.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.buttonHelp_NVD.Location = new System.Drawing.Point(1015, 12);
             this.buttonHelp_NVD.Name = "buttonHelp_NVD";
